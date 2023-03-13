@@ -1,0 +1,25 @@
+#danger {
+
+  background-color: #8cc46e8f;
+  border-left: 50px solid #11bbc7b6 ;
+  border-top-left-radius: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+outline-style: groove;
+
+}
+
+.nam
+{
+  color: rgb(6, 34, 241);
+text-emphasis: 2px;
+}
+label{
+ margin-right: 10px;
+  
+}
+/* #like2{
+  margin-right:0px;
+} */

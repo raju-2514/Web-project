@@ -1,0 +1,21 @@
+#danger {
+
+  background-color: #26bd88b4;
+  border-left: 50px solid #11bbc7df ;
+  border-top-left-radius: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+/* outline-style: groove; */
+
+outline-style: outset;
+}
+
+#my-button{
+  background-color: #26bd88b4;
+}
+#my-button1{
+  background-color: #26bd88b4;
+
+}

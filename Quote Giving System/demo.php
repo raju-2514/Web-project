@@ -1,0 +1,43 @@
+<?php
+$host="localhost";
+$username="root";
+$password="";
+$dbname="copy";
+
+$conn=mysqli_connect($host,$username,$password,$dbname);
+
+
+if(isset($_POST['submit']))
+{
+
+    $lname=$_POST['lname'];
+    $cname=$_POST['cname'];
+    $dob=$_POST['dob'];
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    
+   if(empty( $lname))
+   {
+    $ln="Fill  this field.";
+   }
+    
+    $sql="INSERT INTO demo (lname,cname,dob,email,password)
+    VALUES(' $lname','$cname','$dob','$email','$password') ";
+      
+      if(mysqli_query($conn,$sql))
+      {
+          echo "Registration done Successfully";
+      }
+      else{
+  
+          echo "Fill again and Submit".mysqli_error($conn);
+      }
+
+
+
+
+  
+      mysqli_close($conn);
+  }
+  ?>
+  

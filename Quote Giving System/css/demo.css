@@ -1,0 +1,26 @@
+/* registration form data style :start */
+
+.container{
+    align-content: center;
+background-color: rgba(26, 221, 221, 0.856);
+float: center;
+box-sizing: border-box;
+max-width: 500px;
+margin-top:120px;
+margin-right:80px;
+margin-bottom:30px;
+margin-left:500px;
+  padding: 90px; 
+  box-shadow: 50px rgb(18, 232, 214);
+ 
+}
+
+.lname{
+
+    float:center ;
+    margin-left: 3px;
+    padding-left: 10px;
+
+}
+
+/* registration form data style :start */
